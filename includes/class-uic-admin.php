@@ -15,7 +15,7 @@ class UIC_Admin {
             'manage_options',             // Capability required
             'unused-image-cleaner',       // Menu slug
             [$this, 'display_page'],      // Callback function to display the page
-            'dashicons-image',            // Icon for the menu
+            'dashicons-images-alt2',            // Icon for the menu
             6                             // Position in the menu
         );
     }
