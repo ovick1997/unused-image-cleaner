@@ -1,0 +1,83 @@
+.uic-admin-wrap {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.uic-admin-wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.uic-image-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.uic-image-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.uic-image-item img {
+    max-width: 100%;
+    width: 100px;
+    border-radius: 4px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.uic-image-details {
+    margin-top: 10px;
+}
+
+.uic-image-item input {
+    margin-bottom: 10px;
+}
+
+.button-danger {
+    background-color: #ff4d4d;
+    color: white;
+}
+.uic-image-details p {
+    white-space: break-spaces;
+    line-break: anywhere;
+}
+.uic-image-details .uic-image-id-text {
+    background: #3F51B5;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.uic-image-details .uic-mage-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+.uic-image-details .uic-mage-title {
+    font-size: 12px;
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.delete-img-selected-btn {
+    background: red !important;
+    color: #fff !important;
+    border: 1px solid red !important;
+    font-weight: 700;
+    padding: 2px 20px !important;
+    font-size: 15px !important;
+    border-radius: 6px !important;
+}
